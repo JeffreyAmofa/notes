@@ -1,5 +1,5 @@
-# Notes in a life of a developer
-My notes along the trouble of a developer. For me and the public community.
+# Notes in a Life of a Developer
+My notes along the daily trouble of a developer. For me and the public community.
 
 ## SSH Key in Github
 1. Generate a local ssh-key: `ssh-keygen -t ed25519` or `ssh-keygen`
@@ -18,7 +18,7 @@ My notes along the trouble of a developer. For me and the public community.
 5. Still trouble?
   - try to configure a *config*-file in the *~/.ssh*-path with content as follows:
   (eg. for foo)
-  - now its time for giuf
+  - now its time for giyf
 ```
 Host github.com
  HostName github.com
