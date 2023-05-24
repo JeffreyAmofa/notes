@@ -5,7 +5,7 @@ My notes along the daily trouble of a developer. For me and the public community
 1. Generate a local ssh-key: `ssh-keygen -t ed25519` or `ssh-keygen`
   - Enter unique *path* and *filename* for the the key. eg. `~/.ssh/foo`
 2. Add new key to ssh-agent: (eg. with *GitBash* or *Terminal*)
-  - command for starting ssh-agent:`ssh-agent -s`
+  - command for starting ssh-agent:`ssh-agent -s` or ``eval `ssh-agent -s` ``
   - command for adding new ssh-key to agent: `ssh-add ~/.ssh/foo`
 3. Add Key to Github:
   - Copy content of *ssh-file.pub* eg. `~/.ssh/foo.pub`
