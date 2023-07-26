@@ -19,6 +19,7 @@ My notes along the daily trouble of a developer. For me and the public community
   - try to configure a *config*-file in the *~/.ssh*-path with content as follows:
   (eg. for foo)
   - now its time for giyf
+  - something magic, that helped: ssh-keygen -o -t rsa -C "emailadressexample@provider.com"
 ```
 Host github.com
  HostName github.com
